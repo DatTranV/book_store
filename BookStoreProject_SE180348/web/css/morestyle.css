@@ -1,0 +1,80 @@
+.footer {
+    background-color: #333;
+    color: white;
+  
+}
+.carousel-item .site-blocks-cover, .carousel-item img {
+  width: 100%; /* This will make the image take the full width of its parent */
+  height: 100%; /* This will make the image take the full height of its parent */
+  object-fit: cover; /* This will make the image cover the entire area of its parent, cropping it if necessary */
+}
+.site-blocks-cover {
+  background-size: cover; /* This will scale the image to cover the entire area of the div */
+  background-position: center; /* This will center the image within the div */
+  background-repeat: no-repeat; /* This will prevent the image from repeating */    
+}
+.bannertext {
+  color: white !important; /* This will override any other rule that sets the color of the text */
+}
+.product {
+          text-align: center;
+          margin-bottom: 20px;
+      }
+      .product img {
+          width: 100%;
+          height: auto;
+      }
+      .product-title {
+          font-size: 16px;
+          margin: 10px 0;
+          color: black;
+      }
+      .product-price {
+          font-size: 18px;
+          color: red;
+      }
+      .product-original-price {
+          text-decoration: line-through;
+          color: grey;
+          font-size: 14px;
+      }
+      .product-discount {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          background-color: red;
+          color: white;
+          padding: 5px;
+          border-radius: 50%;
+      }
+      .product-container {
+          position: relative;
+      }
+      .zoom-container {
+  overflow: hidden;
+  width: 200px;  /* Adjust the width as needed */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zoom-container img {
+  transition: transform 0.3s ease;
+}
+
+.zoom-container:hover img {
+  transform: scale(1.2); /* Adjust the scale factor as needed */
+}
+
+
+.price-filter-header {
+  background-color: #e60000;
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+.price-filter-body {
+  padding: 10px;
+}

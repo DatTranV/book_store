@@ -1,0 +1,5 @@
+* install:
+sqljdbc4
+JDK
+Java EE Web 7 API Library - javaee-web-api-7.0
+Apache Tomcat or TomEE
